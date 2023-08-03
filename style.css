@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+:root {
+}
+
+/* Common */
+a {
+	text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font-family: inherit;
+	font-size: inherit;
+}
