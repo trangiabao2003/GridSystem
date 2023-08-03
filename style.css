@@ -10,6 +10,7 @@ html {
 
 body {
 	font-size: 1.6rem;
+	font-family: system-ui;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -33,4 +34,12 @@ select,
 button {
 	font-family: inherit;
 	font-size: inherit;
+}
+
+.card-item {
+	margin: 20px;
+	padding: 10px;
+	border: 1px dashed orange;
+	text-align: center;
+	font-weight: 600;
 }
